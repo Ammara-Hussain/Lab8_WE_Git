@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova | E-Commerce Product Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="store-header">
+    <div class="header-inner">
+      <h1 class="brand">TechNova Store</h1>
+      <nav class="nav-links">
+        <a href="#products">Products</a>
+        <a href="#deals">Deals</a>
+        <a href="#support">Support</a>
+        <span class="cart-pill">Cart (0)</span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="products">
+    <section class="gallery-intro">
+      <h2>Featured Tech Accessories</h2>
+      <p>Auto-responsive CSS Grid gallery powered by <code>auto-fit</code> and <code>minmax(250px, 1fr)</code>.</p>
+    </section>
+
+    <!-- CSS Grid Container -->
+    <section class="product-grid">
+
+      <!-- Card 1 -->
+      <article class="product-card">
+        <div class="card-media bg-blue">
+          <span class="badge">Best Seller</span>
+          <svg viewBox="0 0 120 120" class="product-icon" aria-label="Wireless Headphones">
+            <path d="M25 65a35 35 0 0 1 70 0" fill="none" stroke="#003366" stroke-width="8" stroke-linecap="round"/>
+            <rect x="18" y="62" width="16" height="30" rx="6" fill="#003366"/>
+            <rect x="86" y="62" width="16" height="30" rx="6" fill="#003366"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <span class="category">Audio</span>
+          <h3 class="product-title">Pro ANC Headphones</h3>
+          <p class="product-desc">Active noise cancellation with 40-hour battery life and spatial sound.</p>
+          <div class="card-footer">
+            <span class="price">$149.99</span>
+            <button class="btn-cart" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="product-card">
+        <div class="card-media bg-green">
+          <span class="badge badge-new">New</span>
+          <svg viewBox="0 0 120 120" class="product-icon" aria-label="Smart Watch">
+            <rect x="44" y="14" width="32" height="22" rx="4" fill="#1b5e20"/>
+            <rect x="44" y="84" width="32" height="22" rx="4" fill="#1b5e20"/>
+            <rect x="32" y="32" width="56" height="56" rx="14" fill="#2e7d32"/>
+            <circle cx="60" cy="60" r="16" fill="none" stroke="#e8f5e9" stroke-width="4"/>
+            <line x1="60" y1="60" x2="60" y2="50" stroke="#e8f5e9" stroke-width="4" stroke-linecap="round"/>
+            <line x1="60" y1="60" x2="68" y2="64" stroke="#e8f5e9" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <span class="category">Wearables</span>
+          <h3 class="product-title">PulseFit Smart Watch</h3>
+          <p class="product-desc">AMOLED display, GPS tracking, heart-rate monitor, and 5ATM water resistance.</p>
+          <div class="card-footer">
+            <span class="price">$199.00</span>
+            <button class="btn-cart" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="product-card">
+        <div class="card-media bg-amber">
+          <svg viewBox="0 0 120 120" class="product-icon" aria-label="Mechanical Keyboard">
+            <rect x="14" y="38" width="92" height="44" rx="8" fill="#e65100"/>
+            <rect x="22" y="46" width="12" height="10" rx="2" fill="#fff3e0"/>
+            <rect x="38" y="46" width="12" height="10" rx="2" fill="#fff3e0"/>
+            <rect x="54" y="46" width="12" height="10" rx="2" fill="#fff3e0"/>
+            <rect x="70" y="46" width="12" height="10" rx="2" fill="#fff3e0"/>
+            <rect x="86" y="46" width="12" height="10" rx="2" fill="#fff3e0"/>
+            <rect x="34" y="64" width="52" height="10" rx="2" fill="#fff3e0"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <span class="category">Peripherals</span>
+          <h3 class="product-title">Mechanical Keyboard 75%</h3>
+          <p class="product-desc">Hot-swappable tactile switches with aluminum frame and warm backlight.</p>
+          <div class="card-footer">
+            <span class="price">$119.50</span>
+            <button class="btn-cart" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="product-card">
+        <div class="card-media bg-purple">
+          <span class="badge">Sale</span>
+          <svg viewBox="0 0 120 120" class="product-icon" aria-label="Wireless Mouse">
+            <rect x="36" y="20" width="48" height="80" rx="24" fill="#4a148c"/>
+            <line x1="60" y1="20" x2="60" y2="54" stroke="#f3e5f5" stroke-width="3"/>
+            <rect x="56" y="32" width="8" height="14" rx="4" fill="#f3e5f5"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <span class="category">Peripherals</span>
+          <h3 class="product-title">AeroGlide Pro Mouse</h3>
+          <p class="product-desc">Ultra-lightweight 58g ergonomic wireless mouse with 26,000 DPI sensor.</p>
+          <div class="card-footer">
+            <span class="price">$74.99</span>
+            <button class="btn-cart" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="product-card">
+        <div class="card-media bg-teal">
+          <svg viewBox="0 0 120 120" class="product-icon" aria-label="Portable SSD">
+            <rect x="28" y="24" width="64" height="72" rx="10" fill="#00695c"/>
+            <rect x="44" y="38" width="32" height="8" rx="3" fill="#e0f2f1"/>
+            <circle cx="60" cy="76" r="5" fill="#80cbc4"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <span class="category">Storage</span>
+          <h3 class="product-title">2TB NVMe Portable SSD</h3>
+          <p class="product-desc">Pocket-sized USB-C drive delivering 1,050 MB/s read/write speeds.</p>
+          <div class="card-footer">
+            <span class="price">$159.00</span>
+            <button class="btn-cart" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="product-card">
+        <div class="card-media bg-rose">
+          <span class="badge badge-new">New</span>
+          <svg viewBox="0 0 120 120" class="product-icon" aria-label="4K Webcam">
+            <rect x="24" y="34" width="72" height="44" rx="10" fill="#880e4f"/>
+            <circle cx="60" cy="56" r="14" fill="#fce4ec"/>
+            <circle cx="60" cy="56" r="7" fill="#880e4f"/>
+            <rect x="42" y="82" width="36" height="8" rx="4" fill="#880e4f"/>
+          </svg>
+        </div>
+        <div class="card-body">
+          <span class="category">Video</span>
+          <h3 class="product-title">StreamCam 4K Pro</h3>
+          <p class="product-desc">HDR auto-framing webcam with dual studio microphones and privacy cover.</p>
+          <div class="card-footer">
+            <span class="price">$129.00</span>
+            <button class="btn-cart" type="button">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="store-footer">
+    <p>TechNova E-Commerce Gallery © 2026 | Web Engineering Lab 8</p>
+  </footer>
+
+</body>
+</html>
